@@ -16,10 +16,10 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  color: black;
-  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 188, 188);
 }
-
+ 
 img {
   max-width: 100%;
 }
@@ -38,11 +38,18 @@ img {
 
 
 /* HEADER */
- .logob{
- width: 100px;
- height: 80px;
- cursor: pointer;
- }
+  .logob{
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+  } 
+  .icon1{
+  color:  black;
+  font-size: 64px;
+  
+  
+  }
+  
  
  nav{
   width: 84%;
@@ -56,16 +63,20 @@ img {
  nav ul li{
      display: inline-block;
      list-style: none;
-     margin: 10px 20px;
+     margin: 20px 20px;
  }
  
  nav ul li a{
      text-decoration: none;
-     color: #606163;
+     color: #567cc6;
+     font-weight: bold;
+     background-color: #eceff4;
+     border-radius: 10px;
+     padding: 5px;
  }
  
  nav ul li a:hover{
-     color: #ff4321;
+     color: #21ff67;
  } 
 
  .d {
@@ -108,7 +119,7 @@ img {
   overflow: hidden;
   position: relative;
   z-index: 0;
-  background-color: lightgray;
+  background-color: rgb(175, 195, 165);
   background-image: url('/images/banner.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll; 
@@ -125,7 +136,7 @@ img {
 .dis {
   display: inline-block;
   font-size: 40px;
-  color: #ff4321;
+  color: #567cc6;;
 }
 
 .intro h1 {
@@ -134,6 +145,7 @@ img {
   font-weight: 700;
   font-size: 80px;
   text-align: center;
+  color: #202a23;
 }
 
 .intro h2 {
@@ -141,6 +153,7 @@ img {
   font-weight: 600;
   font-size: 45px;
   text-align: center;
+  color:#cd7768
 }
 
 
@@ -148,18 +161,22 @@ img {
   font-weight: 400;
   font-size: 40px;
   text-align: center;
+  color: #16ab45;
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
   border-radius: 80px;
-  background-color: #ff4321;
-  padding: 20px 80px;
+  background-color: #567cc6;
+  padding: 20px 20px;
   color: white;
   font-weight: 600;
   box-shadow: 0 16px 24px rgba(0, 0, 0, 0.3);
   margin-top: 75px;
-  margin-left: 600px;
+  width: auto;
+  justify-content: center;
+  
+  
 }
 
 
@@ -186,7 +203,7 @@ img {
 }
 
 .benefit .icon {
-  color:  #ff4321;
+  color:  #567cc6;
   font-size: 64px;
 }
 
@@ -205,6 +222,7 @@ img {
   text-align: center;
   margin-bottom: 5rem;
   font-weight: 600;
+ 
 }
 
 .h h1 {
@@ -212,7 +230,7 @@ img {
 }
 
 .h span {
-  color:  #ff4321;
+  color:  #567cc6;
 }
 
 .ac-center {
