@@ -126,6 +126,7 @@ img {
   .ac img {
     
     transition: all 500ms ease-in-out;
+    
   }
   
   .ac:hover img {
